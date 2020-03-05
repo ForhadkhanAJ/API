@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JSON</h1>
+    <h2>JavaScript Object Notation</h2>
+    <ul id ="users-container">
+
+    </ul>
+    <script>
+        //1, 4lesson.
+        // const user = {id: 245, name: "Khan"};
+        //     // {"id":245,"name":"Khan"}
+        // const userJSON = JSON.stringify(user);
+        // console.log(userJSON);
+
+        //2, 4lesson.
+        // const user = {id: 245, name: "Khan"};
+        //     // {"id":245,"name":"Khan"}
+        // const userJSON = JSON.stringify(user);
+        // console.log(userJSON);
+        // const userFromJSON = JSON.parse(userJSON);
+        // console.log(userFromJSON);
+
+        //3, 4lesson.
+        // const user = {
+        //     id: 245, 
+        //     name: "Khan", 
+        //     lover: {
+        //         name: "Jacqueline",
+        //         favFood: "pizza"
+        //     },
+        //     friendsAge: [12, 45, 56],
+        //     friends: ["Kamal", "Jamal", "Samal"]
+        //     };
+        //     // {"id":245,"name":"Khan"}
+        // const userJSON = JSON.stringify(user);
+        // console.log(userJSON);
+        // const userFromJSON = JSON.parse(userJSON);
+        // console.log(userFromJSON);
+
+        //1, 5lesson.
+    //     fetch('https://jsonplaceholder.typicode.com/todos/1')
+    //    .then(response => response.json())
+    //     .then(json => console.log(json))
+        // //2, 5lesson.
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        // .then(response => response.json())
+        // .then(json => console.log(json))
+
+        // //3, 5lesson.
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        // .then(response => response.json())
+        // .then(json => displayUser(json))
+
+        // function displayUser(users){
+        //     console.log("Users", users);
+        // }
+
+        // //4, 5lesson.
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        // .then(response => response.json())
+        // .then(json => displayUser(json))
+
+        // function displayUser(users){
+            
+        //     const userNames = users.map(user => user.username);
+        //     console.log(userNames);
+        // }
+
+        // //5, 5lesson.
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        // .then(response => response.json())
+        // .then(json => displayUser(json))
+
+        // function displayUser(users){
+            
+        //     const userNames = users.map(user => user.username);
+        //     const ul = document.getElementById("users-container");
+        //     for(let i=0; i<userNames.length; i++){
+        //         const username = userNames[i];
+        //         const li = document.createElement("li");
+        //         li.innerText = username;
+        //         ul.appendChild(li);
+        //     }
+        // }
+
+        // //1, 6lesson.
+        // fetch('https://jsonplaceholder.typicode.com/people')
+        // .then(response => response.json())
+        // .then(json => displayUser(json))
+        // .catch(error => console.log(error))
+
+        // function displayUser(users){
+            
+        //     const userNames = users.map(user => user.username);
+        //     const ul = document.getElementById("users-container");
+        //     for(let i=0; i<userNames.length; i++){
+        //         const username = userNames[i];
+        //         const li = document.createElement("li");
+        //         li.innerText = username;
+        //         ul.appendChild(li);
+        //     }
+        // }
+
+        // //2, 6lesson.
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        // .then(response => response.json())
+        // .then(json => displayUser(json))
+        // .catch(error => console.log(error))
+
+        // function displayUser(users){
+        //     const userNames = users.map(user => user.username);
+        //     const ul = document.getElementById("users-container");
+        //     for(let i=0; i<userNames.length; i++){
+        //         const username = userNames[i];
+        //         const li = document.createElement("li");
+        //         li.innerText = username;
+        //         ul.appendChild(li);
+        //     }
+        // }
+
+        // //1, 8lesson.
+
+        // const postInfo = { title: 'foooooooo', body: 'barrrrrr', userId: 1}
+
+        // fetch('https://jsonplaceholder.typicode.com/posts', {
+        //     method: 'POST',
+        //     body: JSON.stringify(postInfo),
+        //     headers: {
+        //     "Content-type": "application/json; charset=UTF-8"
+        //         }
+        //     })
+        // .then(response => response.json())
+        // .then(data => console.log(data));
+
+        // function displayUser(users){
+        //     const userNames = users.map(user => user.username);
+        //     const ul = document.getElementById("users-container");
+        //     for(let i=0; i<userNames.length; i++){
+        //         const username = userNames[i];
+        //         const li = document.createElement("li");
+        //         li.innerText = username;
+        //         ul.appendChild(li);
+        //     }
+        // }
+        
+
+    </script>
+</body>
+</html>
